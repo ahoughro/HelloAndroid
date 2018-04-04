@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:scaleType="fitStart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/udacity"
+        />
+
+    <TextView
+        android:id="@+id/addy4_text_view"
+        android:text="www.udacity.com"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="26sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:autoLink="all"
+        android:linksClickable="true"
+        />
+
+    <TextView
+        android:id="@+id/addy3_text_view"
+        android:text="650-555-5555"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="26sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/addy4_text_view"
+        android:autoLink="all"
+        android:linksClickable="true"
+        />
+
+    <TextView
+        android:id="@+id/addy2_text_view"
+        android:text="Mountain View, CA 94043"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="26sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/addy3_text_view"
+        />
+
+    <TextView
+        android:id="@+id/addy1_text_view"
+        android:text="2465 Latham Street"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="26sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/addy2_text_view"
+        android:autoLink="all"
+        android:linksClickable="true"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
